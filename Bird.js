@@ -5,12 +5,12 @@ class Bird{
             friction:1,
             restitution:0.75
         }
-        this.image = loadImage("/sprites/bird.png");
+        this.image = loadImage("bird.png");
         this.body = B.rectangle(x, y, 50, 20, options); 
         this.width = 50;
         this.height = 50;
         this.trajectory = [];
-        this.smokeImage = loadImage("/sprites/smoke.png");
+        this.smokeImage = loadImage("smoke.png");
         W.add(world, this.body);
      }
         display(){
