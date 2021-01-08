@@ -8,7 +8,7 @@ var engine, world, ground, cons, Platform, score = 0;
 
 function preload(){
      JSON();
-     Background = loadImage("sprites/bg.png");
+     Background = loadImage("bg.png");
 }
 
 function setup(){
@@ -79,6 +79,6 @@ async function JSON(){
    var dateTime = JSON_response.datetime
    var hour = dateTime.slice(11, 13);
    if(hour > 16){
-     Background = loadImage("/sprites/bg2.jpg");
+     Background = loadImage("bg2.jpg");
    }
 }
