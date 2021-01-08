@@ -9,7 +9,7 @@ class RectWoodLogs{
        this.height = height;
        this.x = x;
        this.y = y;
-       this.image = loadImage("/sprites/wood2.png");
+       this.image = loadImage("wood2.png");
        Matter.Body.setAngle(this.body, Angle);
        W.add(world, this.body);
     }
