@@ -8,9 +8,9 @@ class Constraint{
         }    
         this.constraint = C.create(options);
         W.add(world, this.constraint);
-        this.image = loadImage("sprites/sling1.png");
-        this.images2 = loadImage("sprites/sling2.png");
-        this.images3 = loadImage("sprites/sling3.png");
+        this.image = loadImage("sling1.png");
+        this.images2 = loadImage("sling2.png");
+        this.images3 = loadImage("sling3.png");
     }
 
     display(){
